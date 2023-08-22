@@ -9,7 +9,6 @@ Debug/*.hex
 Debug/*.map
 Debug/*.elf
 Debug/*.list
-debug/
 Release/
 release
 
@@ -55,9 +54,10 @@ release
 *.pdb
 
 # STM32CubeIDE
-applications/*/targets/STM32/Release/*
-applications/*/targets/STM32/Debug/*
-applications/*/targets/STM32/.mxproject
-applications/*/targets/STM32/.settings/language.settings.xml
-applications/*/targets/STM32/.settings/stm32cubeide.project.prefs
+Release/*
+Debug/*
+*.mxproject
+.settings/language.settings.xml
+.settings/stm32cubeide.project.prefs
+.settings/org.eclipse.core.resources.prefs
 docs/build/*
