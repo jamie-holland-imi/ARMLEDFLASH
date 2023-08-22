@@ -4,14 +4,6 @@
 #metadata
 .metadata/
 
-#Debug
-Debug/*.hex
-Debug/*.map
-Debug/*.elf
-Debug/*.list
-Release/
-release
-
 # Prerequisites
 *.d
 
