@@ -48,6 +48,7 @@
 # STM32CubeIDE
 Release/*
 Debug/*
+Build/*
 *.mxproject
 .settings/language.settings.xml
 .settings/stm32cubeide.project.prefs
